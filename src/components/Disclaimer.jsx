@@ -9,7 +9,7 @@ export default function Disclaimer({ title }) {
         <div className={styles.container}>
           <h5 className={styles.title}>Inspection Nature:</h5>
           <p className={styles.text}>
-            Ride Inspect's vehicle inspections are purely visual and
+            Vehicle Inspection's vehicle inspections are purely visual and
             non-mechanical. No vehicle component disassembly will occur during
             the inspection. Despite using industry-recognized fault detection
             techniques, it is possible that not all vehicle faults will be
@@ -24,7 +24,7 @@ export default function Disclaimer({ title }) {
         <div className={styles.container}>
           <h5 className={styles.title}>Limitation of Liability:</h5>
           <p className={styles.text}>
-            Ride Inspect, and its inspectors are not accountable for identifying
+            Vehicle Inspection, and its inspectors are not accountable for identifying
             every defect, including those not visually evident during inspection
             or those that may occur post-inspection. Our report represents the
             vehicle's condition solely at the inspection time and date. It
@@ -37,10 +37,10 @@ export default function Disclaimer({ title }) {
         <div className={styles.container}>
           <h5 className={styles.title}>Non-Involvement in Transactions:</h5>
           <p className={styles.text}>
-            Ride Inspect, its representatives, or any affiliated company shall
+            Vehicle Inspection, its representatives, or any affiliated company shall
             bear no responsibility for any agreements, transactions, or
             discussions between parties concerning any vehicle inspected by us.
-            Additionally, Ride Inspect will not engage in mediating disputes
+            Additionally, Vehicle Inspection will not engage in mediating disputes
             arising from such transactions.
           </p>
         </div>
@@ -48,10 +48,10 @@ export default function Disclaimer({ title }) {
         <div className={styles.container}>
           <h5 className={styles.title}>No Warranty on Information:</h5>
           <p className={styles.text}>
-            Subject to applicable laws, Ride Inspect offers no warranty,
+            Subject to applicable laws, Vehicle Inspection offers no warranty,
             guarantee, or representation regarding the inspection report's
             accuracy, completeness, reliability, or suitability for any intended
-            purpose. Users of the report agree that Ride Inspect is not liable
+            purpose. Users of the report agree that Vehicle Inspection is not liable
             for any direct, indirect, incidental, or consequential damages or
             losses that may result from reliance on our report.
           </p>
@@ -60,11 +60,11 @@ export default function Disclaimer({ title }) {
         <div className={styles.container}>
           <h5 className={styles.title}>Exclusion of Liability:</h5>
           <p className={styles.text}>
-            Ride Inspect will not be liable for any loss of use, production,
+            Vehicle Inspection will not be liable for any loss of use, production,
             profit, revenue, data, or any anticipated savings, nor for any
             delays, increased operating costs, or any form of economic loss
             resulting directly or indirectly from the use of our inspection
-            service or report. By engaging Ride Inspect for vehicle inspection
+            service or report. By engaging Vehicle Inspection for vehicle inspection
             services, you acknowledge and accept these terms as part of our
             service agreement. For a detailed understanding of our services,
             please refer to our{" "}
@@ -87,7 +87,7 @@ export default function Disclaimer({ title }) {
           <p className={styles.text}>
             Information is sourced from the PPSR, third-party databases,
             diagnostic tools, and available service records at the time of
-            inspection. Ride Inspect uses advanced equipment to assess the
+            inspection. Vehicle Inspection uses advanced equipment to assess the
             vehicle, where applicable, at the time of inspection. While every
             effort is made, we do not guarantee the accuracy, completeness, or
             future condition of the vehicle.

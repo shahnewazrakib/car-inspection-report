@@ -65,10 +65,11 @@ export default function PremiumHistory({ history }) {
                 <p className="text-[13px] max-w-[300px]">
                   Information is sourced from the PPSR, third-party databases,
                   diagnostic tools, and available service records at the time of
-                  inspection. Ride Inspect uses advanced equipment to assess the
-                  vehicle, where applicable, at the time of inspection. While
-                  every effort is made, we do not guarantee the accuracy,
-                  completeness, or future condition of the vehicle.
+                  inspection. Vehicle Inspection uses advanced equipment to
+                  assess the vehicle, where applicable, at the time of
+                  inspection. While every effort is made, we do not guarantee
+                  the accuracy, completeness, or future
+                  condition of the vehicle.
                 </p>
               }
             >
@@ -93,8 +94,8 @@ export default function PremiumHistory({ history }) {
                 ? "text-green-600"
                 : "text-red-500"
               : historyData?.status === "yes"
-              ? "text-red-500"
-              : "text-green-600";
+                ? "text-red-500"
+                : "text-green-600";
 
             // Determine message (reversed if serviceCheck)
             const statusMessage =
@@ -108,15 +109,15 @@ export default function PremiumHistory({ history }) {
                 ? "green"
                 : "red"
               : historyData?.status === "yes"
-              ? "red"
-              : "green";
+                ? "red"
+                : "green";
 
             const tagLabel =
               historyData?.status === "yes"
                 ? "Yes"
                 : isServiceCheck
-                ? "No"
-                : "Ok";
+                  ? "No"
+                  : "Ok";
 
             return (
               <div

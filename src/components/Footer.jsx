@@ -58,7 +58,7 @@ export default function Footer() {
         <div className="flex max-sm:flex-col sm:items-center justify-between gap-4">
           <div className="flex sm:items-center gap-3 sm:gap-5 max-sm:flex-col">
             <p className="text-sm text-white">
-              © 2025 Ride Inspect. All rights reserved.
+              © 2025 Vehicle Inspection. All rights reserved.
             </p>
             <p className="text-white text-sm">
               Developed by{" "}
@@ -76,7 +76,6 @@ export default function Footer() {
             target="_blank"
             href="https://rideinspect.com.au"
             icon={<HiOutlineExternalLink />}
-        
           >
             Visit Website
           </Button>

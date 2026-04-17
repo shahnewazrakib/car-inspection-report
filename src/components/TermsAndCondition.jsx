@@ -9,10 +9,10 @@ export default function TermsAndCondition({ title }) {
         <div className={styles.container}>
           <h5 className={styles.title}>1. Nature of the Service:</h5>
           <p className={styles.text}>
-            Ride Inspect provides pre-purchase inspection services only.
+            Vehicle Inspection provides pre-purchase inspection services only.
             Inspections are visual, non-invasive assessments of the vehicle's
-            condition at the time of inspection. Ride Inspect does not dismantle
-            components or guarantee detection of all faults.
+            condition at the time of inspection. Vehicle Inspection does not
+            dismantle components or guarantee detection of all faults.
           </p>
         </div>
 
@@ -23,9 +23,9 @@ export default function TermsAndCondition({ title }) {
             performance, durability, or reliability of the vehicle. Vehicles may
             develop faults or breakdowns after inspection due to normal wear and
             tear, latent defects, or pre-existing conditions not visible at the
-            time. Ride Inspect accepts no liability in such cases. Inspections
-            are a snapshot in time only and should not be relied upon as a
-            guarantee of condition.
+            time. Vehicle Inspection accepts no liability in such cases.
+            Inspections are a snapshot in time only and should not be relied
+            upon as a guarantee of condition.
           </p>
         </div>
 
@@ -36,19 +36,21 @@ export default function TermsAndCondition({ title }) {
             inspections are subject to human judgment and not all issues can or
             will be identified. Minor or cosmetic issues (e.g., scratches, small
             fluid marks, trim wear, minor noises) are not considered material
-            and do not form grounds for complaint. Ride Inspect is not
+            and do not form grounds for complaint. Vehicle Inspection is not
             responsible for any perceived omissions, oversights, or subsequent
             faults discovered after the inspection.
           </p>
         </div>
 
         <div className={styles.container}>
-          <h5 className={styles.title}>4. No Liability for Breakdown or Repairs:</h5>
+          <h5 className={styles.title}>
+            4. No Liability for Breakdown or Repairs:
+          </h5>
           <p className={styles.text}>
-            Ride Inspect is not liable if the vehicle experiences breakdowns,
-            faults, or repair needs after the inspection. Ride Inspect is not
-            responsible for repair costs, towing, replacement vehicles, or any
-            consequential losses.
+            Vehicle Inspection is not liable if the vehicle experiences
+            breakdowns, faults, or repair needs after the inspection. Vehicle
+            Inspection is not responsible for repair costs, towing, replacement
+            vehicles, or any consequential losses.
           </p>
         </div>
 
@@ -66,22 +68,22 @@ export default function TermsAndCondition({ title }) {
           <h5 className={styles.title}>6. Inspection Report Use:</h5>
           <p className={styles.text}>
             Reports are for informational purposes only. They are not to be
-            treated as warranties, guarantees, or insurance of vehicle condition.
-            Customers must make their own purchase decisions and are encouraged
-            to seek independent advice.
+            treated as warranties, guarantees, or insurance of vehicle
+            condition. Customers must make their own purchase decisions and are
+            encouraged to seek independent advice.
           </p>
         </div>
 
         <div className={styles.container}>
           <h5 className={styles.title}>7. Exclusion of Liability:</h5>
           <p className={styles.text}>
-            To the fullest extent permitted by law, Ride Inspect excludes all
-            liability for any claims for refunds or compensation outside of its
-            published Refund Policy, losses arising from reliance on the
+            To the fullest extent permitted by law, Vehicle Inspection excludes
+            all liability for any claims for refunds or compensation outside of
+            its published Refund Policy, losses arising from reliance on the
             inspection report, and vehicle breakdowns, repair costs, or
-            financial loss following inspection. Ride Inspect's liability, if
-            any, is strictly limited by the Refund Policy and cannot exceed what
-            is stated therein.
+            financial loss following inspection. Vehicle Inspection's liability,
+            if any, is strictly limited by the Refund Policy and cannot exceed
+            what is stated therein.
           </p>
         </div>
 

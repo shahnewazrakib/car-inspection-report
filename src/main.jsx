@@ -11,12 +11,12 @@ createRoot(document.getElementById("root")).render(
       token: {
         borderRadius: 6,
         fontFamily: "Roboto, sans-serif",
-        colorPrimary: "#FEC108",
+        colorPrimary: "#6c47ff",
         controlHeight: 36,
       },
       components: {
         Rate: {
-          starColor: "#f4ba0c",
+          starColor: "#212126",
           starBg: "#b4b4b4",
         },
       },
@@ -25,5 +25,5 @@ createRoot(document.getElementById("root")).render(
     <Router>
       <App />
     </Router>
-  </ConfigProvider>
+  </ConfigProvider>,
 );
