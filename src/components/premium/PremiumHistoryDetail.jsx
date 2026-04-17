@@ -125,10 +125,11 @@ export default function PremiumHistoryDetail({ history }) {
                 <p className="text-[13px] max-w-[300px]">
                   Information is sourced from the PPSR, third-party databases,
                   diagnostic tools, and available service records at the time of
-                  inspection. Ride Inspect uses advanced equipment to assess the
-                  vehicle, where applicable, at the time of inspection. While
-                  every effort is made, we do not guarantee the accuracy,
-                  completeness, or future condition of the vehicle.
+                  inspection. Vehicle Inspection uses advanced equipment to
+                  assess the vehicle, where applicable, at the time of
+                  inspection. While every effort is made, we do not guarantee
+                  the accuracy, completeness, or future
+                  condition of the vehicle.
                 </p>
               }
             >
@@ -157,22 +158,22 @@ export default function PremiumHistoryDetail({ history }) {
               ? historyData?.status === "yes"
                 ? "green"
                 : historyData?.status === "no"
-                ? "red"
-                : undefined
+                  ? "red"
+                  : undefined
               : historyData?.status === "yes"
-              ? "red"
-              : historyData?.status === "no"
-              ? "green"
-              : undefined;
+                ? "red"
+                : historyData?.status === "no"
+                  ? "green"
+                  : undefined;
 
             const tagLabel =
               historyData?.status === "yes"
                 ? "Yes"
                 : historyData?.status === "no"
-                ? isServiceCheck
-                  ? "No"
-                  : "Ok"
-                : "N/A";
+                  ? isServiceCheck
+                    ? "No"
+                    : "Ok"
+                  : "N/A";
 
             return (
               <div
@@ -197,8 +198,8 @@ export default function PremiumHistoryDetail({ history }) {
                     {historyData?.status === "yes"
                       ? check.yesMessage
                       : historyData?.status === "no"
-                      ? check.noMessage
-                      : check.unknownMessage}
+                        ? check.noMessage
+                        : check.unknownMessage}
                   </p>
                 </div>
 
